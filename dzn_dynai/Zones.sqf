@@ -9,8 +9,8 @@
 			2, /* Groups quantity */
 			/* Units */
 			[
-				["O_Soldier_F", ["indoors", [null]], "kit_kyrd_random"]
-				,["O_Soldier_F", ["indoors", [null]], "kit_kyrd_random"]
+				["O_Soldier_F", ["indoors"], "kit_kyrd_random"]
+				,["O_Soldier_F", ["indoors"], "kit_kyrd_random"]
 				,["O_Soldier_F", ["indoors"], "kit_kyrd_random"]
 			]
 		]

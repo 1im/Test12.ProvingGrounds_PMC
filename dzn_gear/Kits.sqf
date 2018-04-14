@@ -123,6 +123,14 @@ kit_crew_r = [
 	["<BACKPACK ITEMS >> ",[]]
 ];
 
+cargo_kit_turk = [
+	[],
+	[["hlc_30rnd_556x45_EPR_HK33",60],["SmokeShell",10],["CUP_100Rnd_TE4_Green_Tracer_556x45_M249",20],["rhs_mag_m67",10],["1Rnd_HE_Grenade_shell",100],["DemoCharge_Remote_Mag",5]],
+	[["ACE_fieldDressing",20],["ACE_packingBandage",20],["ACE_elasticBandage",20],["ACE_tourniquet",4],["ACE_morphine",5],["ACE_epinephrine",5],["ACE_quikclot",20],["ACE_Clacker",5]],
+	[]
+];
+
+
 // enemy kits
 kit_kyrd_random = [
     "kit_kyrd_r" ,"kit_kyrd_r" ,"kit_kyrd_r" ,"kit_kyrd_r"

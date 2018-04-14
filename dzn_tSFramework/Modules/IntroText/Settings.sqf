@@ -10,7 +10,7 @@ tSF_Intro_LineText2	= "Сирийско-турецкая граница";
 tSF_Intro_LineStyle2	= "<t align = 'right' shadow = '1' size = '0.7' font='PuristaBold'><br />%1</t>";
 
 // 3rd line
-tSF_Intro_LineText3	= "Операция 'Пахвала'";
+tSF_Intro_LineText3	= "Операция 'Пахлава'";
 tSF_Intro_LineStyle3	= "<t align = 'right' shadow = '1' size = '0.9' font='PuristaBold'><br />%1</t>";
 
 // Other settings
