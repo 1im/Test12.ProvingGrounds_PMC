@@ -53,7 +53,7 @@
 // friendly kits
 
 kit_turkish_pl = [
-	["<EQUIPEMENT >>  ","TRYK_U_B_3cr","CUP_V_I_RACS_Carrier_Vest_wdl_2","tf_rt1523g_black","TRYK_H_PASGT_OD",""],
+	["<EQUIPEMENT >>  ","TRYK_U_B_Sage_Tshirt","CUP_V_I_RACS_Carrier_Vest_wdl_2","tf_rt1523g_black","TRYK_H_PASGT_OD",""],
 	["<PRIMARY WEAPON >>  ","hlc_rifle_hk33ka3","hlc_30rnd_556x45_b_HK33",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
@@ -63,7 +63,7 @@ kit_turkish_pl = [
 	["<BACKPACK ITEMS >> ",[["rhs_mag_m67",2],["rhs_mag_m18_green",1]]]
 ];
 kit_turkish_sl = [
-	["<EQUIPEMENT >>  ","TRYK_U_B_3cr","CUP_V_I_RACS_Carrier_Vest_wdl_2","tf_rt1523g_black","TRYK_H_PASGT_OD",""],
+	["<EQUIPEMENT >>  ","TRYK_U_B_Sage_Tshirt","CUP_V_I_RACS_Carrier_Vest_wdl_2","tf_rt1523g_black","TRYK_H_PASGT_OD",""],
 	["<PRIMARY WEAPON >>  ","hlc_rifle_hk33a2","hlc_30rnd_556x45_b_HK33",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
@@ -73,17 +73,17 @@ kit_turkish_sl = [
 	["<BACKPACK ITEMS >> ",[["rhs_mag_m67",2],["rhs_mag_m18_green",1]]]
 ];
 kit_turkish_ftl = [
-	["<EQUIPEMENT >>  ","TRYK_U_B_3c","CUP_V_I_RACS_Carrier_Vest_wdl_2","B_AssaultPack_rgr","TRYK_H_PASGT_OD",""],
+	["<EQUIPEMENT >>  ","TRYK_U_B_Sage_Tshirt","CUP_V_I_RACS_Carrier_Vest_wdl_2","B_AssaultPack_rgr","TRYK_H_PASGT_OD",""],
 	["<PRIMARY WEAPON >>  ","hlc_rifle_hk33a2RIS_GL","hlc_30rnd_556x45_b_HK33",["","","rhsusf_acc_ACOG_USMC",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
-	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","tf_anprc148jem_1"],
-	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["SmokeShell",1],["PRIMARY MAG",7]]],
 	["<BACKPACK ITEMS >> ",[["ACE_Clacker",1],["rhs_mag_m67",2],["rhs_mag_m18_green",1],["1Rnd_HE_Grenade_shell",7],["DemoCharge_Remote_Mag",1]]]
 ];
 kit_turkish_ar = [
-	["<EQUIPEMENT >>  ","TRYK_U_B_3cr","CUP_V_I_RACS_Carrier_Vest_wdl_2","B_AssaultPack_rgr","TRYK_H_PASGT_OD","rhsusf_oakley_goggles_clr"],
+	["<EQUIPEMENT >>  ","TRYK_U_B_Sage_Tshirt","CUP_V_I_RACS_Carrier_Vest_wdl_2","B_AssaultPack_rgr","TRYK_H_PASGT_OD","rhsusf_oakley_goggles_clr"],
 	["<PRIMARY WEAPON >>  ","CUP_lmg_minimi_railed","CUP_200Rnd_TE4_Red_Tracer_556x45_M249",["","","rhsusf_acc_ELCAN",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
@@ -93,7 +93,7 @@ kit_turkish_ar = [
 	["<BACKPACK ITEMS >> ",[["rhs_mag_m67",2],["rhs_mag_m18_green",1],["CUP_100Rnd_TE4_Green_Tracer_556x45_M249",2]]]
 ];
 kit_turkish_gr = [
-	["<EQUIPEMENT >>  ","TRYK_U_B_3cr","CUP_V_I_RACS_Carrier_Vest_wdl_2","B_AssaultPack_rgr","TRYK_H_PASGT_OD",""],
+	["<EQUIPEMENT >>  ","TRYK_U_B_Sage_Tshirt","CUP_V_I_RACS_Carrier_Vest_wdl_2","B_AssaultPack_rgr","TRYK_H_PASGT_OD",""],
 	["<PRIMARY WEAPON >>  ","hlc_rifle_hk33a2RIS_GL","hlc_30rnd_556x45_b_HK33",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
@@ -103,7 +103,7 @@ kit_turkish_gr = [
 	["<BACKPACK ITEMS >> ",[["ACE_Clacker",1],["rhs_mag_m67",2],["rhs_mag_m18_green",1],["hlc_30rnd_556x45_EPR_HK33",3],["DemoCharge_Remote_Mag",1]]]
 ];
 kit_turkish_r = [
-	["<EQUIPEMENT >>  ","TRYK_U_B_3cr","CUP_V_I_RACS_Carrier_Vest_wdl_2","B_AssaultPack_rgr","TRYK_H_PASGT_OD",""],
+	["<EQUIPEMENT >>  ","TRYK_U_B_Sage_Tshirt","CUP_V_I_RACS_Carrier_Vest_wdl_2","B_AssaultPack_rgr","TRYK_H_PASGT_OD",""],
 	["<PRIMARY WEAPON >>  ","hlc_rifle_hk33ka3","hlc_30rnd_556x45_b_HK33",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","rhs_weap_m72a7","rhs_m72a7_mag",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
@@ -111,6 +111,16 @@ kit_turkish_r = [
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
 	["<VEST ITEMS >> ",[["SmokeShell",1],["PRIMARY MAG",7]]],
 	["<BACKPACK ITEMS >> ",[["ACE_Clacker",1],["rhs_mag_m67",2],["rhs_mag_m18_green",1],["DemoCharge_Remote_Mag",1],["CUP_100Rnd_TE4_Green_Tracer_556x45_M249",2]]]
+];
+kit_crew_r = [
+	["<EQUIPEMENT >>  ","TRYK_U_B_Sage_Tshirt","CUP_V_I_RACS_Carrier_Vest_wdl_2","","H_HelmetCrew_I","rhsusf_oakley_goggles_clr"],
+	["<PRIMARY WEAPON >>  ","hlc_rifle_hk53","hlc_30rnd_556x45_b_HK33",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
+	["<VEST ITEMS >> ",[["SmokeShell",2],["hlc_30rnd_556x45_EPR_HK33",3],["SmokeShellBlue",2]]],
+	["<BACKPACK ITEMS >> ",[]]
 ];
 
 // enemy kits

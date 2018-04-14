@@ -20,3 +20,5 @@ A "Platoon Leader"			TO "kit_turkish_pl"	 KIT
 , A "Automatic Rifleman"		TO "kit_turkish_ar"	 KIT
 , A "Grenadier"					TO "kit_turkish_gr"	 KIT
 , A "Rifleman"					TO "kit_turkish_r"	 KIT
+, A "Crew Driver"               TO "kit_crew_r"  KIT
+, A "Crew Commander"            TO "kit_crew_r"  KIT

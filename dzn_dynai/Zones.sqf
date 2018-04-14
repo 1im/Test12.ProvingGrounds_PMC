@@ -6,46 +6,25 @@
 	/* Groups: */
 	,[
 		[
-			1, /* Groups quantity */
-			/* Units */
-			[
-				["O_Soldier_F", [], "kit_kyrd_r"]
-				,["O_Soldier_F", [], "kit_kyrd_gr"]
-				,["O_Soldier_F", [], "kit_kyrd_rpg_at"]
-				,["O_Soldier_F", [], "kit_kyrd_r"]
-			]
-		]
-		,[
 			2, /* Groups quantity */
 			/* Units */
 			[
-				["O_Soldier_F", ["indoors"], "kit_kyrd_random"]
+				["O_Soldier_F", ["indoors", [null]], "kit_kyrd_random"]
+				,["O_Soldier_F", ["indoors", [null]], "kit_kyrd_random"]
 				,["O_Soldier_F", ["indoors"], "kit_kyrd_random"]
-				,["O_Soldier_F", ["indoors"], "kit_kyrd_random"]
+			]
+		]
+		,[
+			3, /* Groups quantity */
+			/* Units */
+			[
+				["O_Soldier_F", [], "kit_kyrd_random"]
+				,["O_Soldier_F", [], "kit_kyrd_random"]
 			]
 		]
 	]
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
 	,["LIMITED","SAFE","YELLOW","WEDGE"]
-]
-
-,[
-	"base" /* Zone Name */
-	,"EAST",true, /* Side, is Active */ [],[]
-	/* Groups: */
-	,[
-		[
-			2, /* Groups quantity */
-			/* Units */
-			[
-				["O_Soldier_F", ["indoors"], "kit_kyrd_random"]
-				,["O_Soldier_F", ["indoors"], "kit_kyrd_random"]
-				,["O_Soldier_F", ["indoors"], "kit_kyrd_random"]
-			]
-		]
-	]
-	/* Behavior: Speed, Behavior, Combat mode, Formation */
-	,["LIMITED","SAFE","RED","WEDGE"]
 ]
 
 ,[
@@ -75,7 +54,7 @@
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
 	,["NORMAL","COMBAT","RED","COLUMN"]
 	 /* (OPTIONAL) Activation condition */
-	,{ ts_tasks == 1 }
+	,{ player inArea podk }
 ]
 
 ,[
@@ -108,7 +87,7 @@
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
 	,["LIMITED","COMBAT","RED","WEDGE"]
 	 /* (OPTIONAL) Activation condition */
-	,{ ts_tasks == 2 }
+	,{ player inArea podk2 }
 ]
 
 ,[
@@ -129,4 +108,75 @@
 	]
 	/* Behavior: Speed, Behavior, Combat mode, Formation */
 	,["LIMITED","AWARE","YELLOW","WEDGE"]
+]
+
+,[
+	"bri" /* Zone Name */
+	,"EAST",true, /* Side, is Active */ [],[]
+	/* Groups: */
+	,[
+		[
+			1, /* Groups quantity */
+			/* Units */
+			[
+				["O_Soldier_F", ["indoors"], "kit_kyrd_random"]
+				,["O_Soldier_F", ["indoors"], "kit_kyrd_random"]
+			]
+		]
+		,[
+			2, /* Groups quantity */
+			/* Units */
+			[
+				["O_Soldier_F", [], "kit_kyrd_random"]
+				,["O_Soldier_F", [], "kit_kyrd_random"]
+			]
+		]
+	]
+	/* Behavior: Speed, Behavior, Combat mode, Formation */
+	,["LIMITED","SAFE","YELLOW","WEDGE"]
+]
+
+,[
+	"oil" /* Zone Name */
+	,"EAST",true, /* Side, is Active */ [],[]
+	/* Groups: */
+	,[
+		[
+			2, /* Groups quantity */
+			/* Units */
+			[
+				["O_Soldier_F", [], "kit_kyrd_random"]
+				,["O_Soldier_F", [], "kit_kyrd_random"]
+				,["O_Soldier_F", [], "kit_kyrd_random"]
+			]
+		]
+		,[
+			2, /* Groups quantity */
+			/* Units */
+			[
+				["O_Soldier_F", ["indoors"], "kit_kyrd_random"]
+				,["O_Soldier_F", ["indoors"], "kit_kyrd_random"]
+			]
+		]
+	]
+	/* Behavior: Speed, Behavior, Combat mode, Formation */
+	,["LIMITED","SAFE","YELLOW","WEDGE"]
+]
+
+,[
+	"patrol" /* Zone Name */
+	,"EAST",true, /* Side, is Active */ [],[]
+	/* Groups: */
+	,[
+		[
+			2, /* Groups quantity */
+			/* Units */
+			[
+				["O_Soldier_F", [], "kit_kyrd_random"]
+				,["O_Soldier_F", [], "kit_kyrd_random"]
+			]
+		]
+	]
+	/* Behavior: Speed, Behavior, Combat mode, Formation */
+	,["LIMITED","SAFE","YELLOW","WEDGE"]
 ]
