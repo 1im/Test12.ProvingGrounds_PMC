@@ -47,6 +47,9 @@ tSF_MissionCondition_DefaultCheckTimer 			= 15;
  *			[ [TRG_1, TRG_2, TRG_3], "east", "primaryWeapon _x != ''", "< 3"] call dzn_fnc_ccUnits
  */
 
+  
+ 
+ 
 // Код условия может быть строкой или кодом в { }
-MissionCondition1 = [ "WIN", "false", "All objectives done" ];
+MissionCondition1 = [ "WIN", "(!alive tgt_tank) && ( (!alive box1) OR (!alive box2) OR (!alive box3) OR (!alive box4) OR (!alive box5) ) && {call fnc_CheckPlayersReturned} ", "All objectives done" ];
 MissionCondition2 = [ "WIPED", { call fnc_isAllDead }, "All dead", 30 ];
